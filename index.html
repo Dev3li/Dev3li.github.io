@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>موقعي الشخصي</title>
+  <title>My Personal Website</title>
   <style>
     body {
       direction: rtl;
@@ -11,6 +11,8 @@
       margin: 40px;
       line-height: 1.6;
       text-align: center;
+      background-color: #6CA6CD; /* خلفية سمائية طوخ */
+      color: #fff; /* لون النص أبيض */
     }
     header {
       margin-bottom: 2rem;
@@ -18,44 +20,48 @@
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
+      color: #fff;
     }
     p.description {
       font-size: 1.2rem;
-      color: #555;
+      color: #f0f0f0;
     }
     .links {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column; /* يخلي الروابط بالطول */
+      align-items: center;
       gap: 12px;
       margin-top: 2rem;
     }
     .link-card {
       padding: 12px 20px;
-      border: 1px solid #ddd;
+      border: none;
       border-radius: 8px;
       text-decoration: none;
-      color: #333;
+      color: #fff;
       font-size: 1rem;
+      width: 200px; /* عرض ثابت لكل الروابط */
+      text-align: center;
+      background: rgba(255, 255, 255, 0.15);
       transition: background 0.2s, color 0.2s;
     }
     .link-card:hover {
-      background: #f0f0f0;
+      background: rgba(255, 255, 255, 0.3);
       color: #000;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>اسمك الكامل</h1>
-    <p class="description">وصف صغير عنك أو عن الموقع</p>
+    <h1>Ali Amer</h1>
+    <p class="description">Welcome to my personal website</p>
   </header>
 
   <section class="links">
-    <a href="https://t.me/Q_1_3" class="link-card">تليغرام</a>
-    <a href="https://www.instagram.com/2p.cq" class="link-card">إنستقرام</a>
+    <a href="https://t.me/Q_1_3" class="link-card">Telegram</a>
+    <a href="https://www.instagram.com/2p.cq" class="link-card">Instagram</a>
     <a href="https://github.com/Dev3li" class="link-card">GitHub</a>
-    <a href="https://t.me/rmaxo" class="link-card">قناتي</a>
+    <a href="https://t.me/rmaxo" class="link-card">My Channel</a>
   </section>
 </body>
 </html>
